@@ -1,7 +1,5 @@
-import AssemblyKeys._
+enablePlugins(AssemblyPlugin)
 
-assemblySettings
+assemblyJarName := s"tswrdb-${version.value}.jar"
 
-jarName in assembly <<= (version) map { (version) => "tswrdb-" + version + ".jar" }
-
-mainClass in assembly := Some("com.joakibj.tswrdb.TswRdb")
+mainClass := Some("com.joakibj.tswrdb.TswRdb")
