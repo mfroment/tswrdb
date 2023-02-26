@@ -208,7 +208,7 @@ class RdbTypes {
     RdbType(1010700, "XML - Char Creation", 12, FileType("xml")),
 
     RdbType(1020002, "Sound Effects", 0, FileType("ogg"), true),
-    RdbType(1020003, "Lip Sync Voices", 0, FileType("dat")),
+    RdbType(1020003, "Lip Sync Voices", 0, FileType("lip"), true),
     RdbType(1020004, "Patricia Data?", 0, FileType("dat")),
     RdbType(1020005, "Music", 0, FileType("ogg"), true),
     RdbType(1020006, "Sound Files - Tones", 12, FileType("wav")),
